@@ -4,7 +4,7 @@ spawn git add .
 spawn git commit -m "updated json"
 spawn git push
 expect "Username" 
-send "callmeppx@gmail.com\r" 
+send "jl3517@gmail.com\r" 
 expect "Password" 
 send "tibco123\r" 
 interact 
